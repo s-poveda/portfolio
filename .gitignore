@@ -1,0 +1,8 @@
+# IDE metadata
+.tags*
+
+# node deps
+/node_modules
+
+# environment vars
+.env*
