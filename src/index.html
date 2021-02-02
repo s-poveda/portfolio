@@ -3,16 +3,73 @@
   <head>
     <meta charset="utf-8">
     <title>Sam Portfolio</title>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
     <header>
-
+      <h1>Samuel Poveda</h1>
+      <nav>
+        <div class="">
+          <a href="#projects">Projects</a>
+        </div>
+        <div class="">
+          <a href="#about">About Me</a>
+        </div>
+        <div class="">
+          <a href="#contact">Contact Me</a>
+        </div>
+      </nav>
     </header>
     <main>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div id="all-projects">
 
+        <article>
+        <figure>
+          <a href="https://www.github.com/s-poveda/botilda" target="_blank"><img src="images/botilda_icon.png" alt="Link to Botilda GitHub repo"></a>
+          <figcaption>
+            <h3><a href="https://www.github.com/s-poveda/botilda" target="_blank">Botilda</a></h3>
+            <span>
+              <!-- TODO: fix icons -->
+              <h4>Stack: NodeJS <img class="node icon"></img> | DiscordJS <img class="discord icon"></img></h4>
+            </span>
+            <p>
+              A Discord bot designed to help D&D parties keep everything in one place.
+              It uses Node to interact with both Discord's API and D&D5e's API.
+            </p>
+            <p>
+              Still WIP. In the future, it will incorporate Redux to handle voice chat dispatcher instances and other extra bits of functionality.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+
+        <article>
+        <figure>
+          <a href="https://www.github.com/s-poveda/spellridge" target="_blank"><img src="/images/placeholder.png" alt="Link to Botilda GitHub repo"></a>
+          <figcaption>
+            <h3><a href="https://spellbound.vercel.app" target="_blank">SpellRidge</a> | <a href="https://www.github.com/s-poveda/spellridge" target="_blank">GitHub</a></h3>
+            <p>
+              A Discord bot designed to help D&D parties keep everything in one place.
+              It uses Node to interact with both Discord's API and D&D5e's API.
+            </p>
+            <p>
+              Still WIP. In the future, it will incorporate Redux to handle voice chat dispatcher instances and other extra bits of functionality.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+      </section>
     </main>
   </body>
 </html>
