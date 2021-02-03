@@ -13,7 +13,7 @@ header {
   justify-content: space-around;
   text-align: center;
 	color: #fff;
-	background:  #007CC7;
+	background:  linear-gradient(to bottom right, #4DA8DA, #007CC7);
 }
 
 header > h1 {
@@ -30,7 +30,6 @@ nav {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-	background: inherit;
 }
 
 nav > div + div  {
@@ -49,6 +48,13 @@ nav > div > a:visited {
 	color: #EEFBFB;
 }
 
+#header-media-links {
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
+	width: 200px;
+}
+
 .sticky {
   position: fixed;
   width: 100%;
@@ -56,7 +62,7 @@ nav > div > a:visited {
 	animation-name: slideNav;
 	animation-duration: 0.4s;
 	animation-fill-mode: forwards;
-	/* animation-delay: 0.1s; */
+	background: inherit;
 }
 
 @keyframes slideNav {

@@ -4,3 +4,7 @@ img.icon {
   height: 1.2em;
 	top: 5px;
 }
+
+.big.icon {
+	height: 2.2em;
+}
