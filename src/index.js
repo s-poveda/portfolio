@@ -18,8 +18,10 @@ function initHeaderBehaviour() {
 }
 
 function main() {
-  $('img.icon.discord').attr('src', imgSrc.discord).attr('alt', 'Discord icon');
-  $('img.icon.node').attr('src', imgSrc.node).attr('alt', 'NodeJS icon');
+	const iconSelector = 'img.icon';
+	for (let icon in imgSrc) {
+		$(`${iconSelector}.${icon}`).attr({ src: imgSrc[icon].url, alt: `${icon} icon` });
+	}
 	initHeaderBehaviour();
 }
 
