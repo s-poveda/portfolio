@@ -5,19 +5,47 @@ main > section {
   align-items: center;
 }
 
+#all-projects {
+	width: 100%;
+}
+
 article {
   width: 100%;
 }
 
 article figure {
-  background: #dac;
+  background: #203647;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
   margin-bottom: 16px;
   padding: 0 5px;
   border-radius: 3px;
+	font-size: 18px;
+}
+
+article figure a {
+	text-align: center;
+}
+
+article figure a {
+	/* width: 100%; */
+}
+
+article figure a img {
+	width: 100%;
 }
 
 article figure figcaption *:last-child {
   margin-bottom: 0;
+}
+
+article figure figcaption a {
+	color: #EEFBFB;
+}
+
+article figure figcaption a:visited {
+	color: #4DA8DA;
+}
+article figure figcaption a:hover {
+	color: #007CC7;
 }

@@ -1,3 +1,7 @@
+:root {
+	/* includes padding */
+	--nav-height: 50px;
+}
 
 header {
   width: 100%;
@@ -8,18 +12,25 @@ header {
   flex-flow: column nowrap;
   justify-content: space-around;
   text-align: center;
+	color: #fff;
+	background:  #007CC7;
 }
 
 header > h1 {
-  /* font-size: 5vh; */
+  font-size: 3em;
+	margin-bottom: 0;
 }
 
 nav {
-  font-size: 14px;
+  font-size: 22px;
+	padding: 0;
+	height: var(--nav-height);
+	font-weight: bold;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
+	background: inherit;
 }
 
 nav > div + div  {
@@ -28,8 +39,27 @@ nav > div + div  {
 
 nav > div > a {
   text-decoration: none;
+	color: #EEFBFB
 }
 nav > div > a:hover, nav > div > a:focus {
-  border-bottom: solid 1px #888;
-  /* background: gray; */
+  border-bottom: solid 1px #EEFBFB;
+}
+
+nav > div > a:visited {
+	color: #EEFBFB;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+	z-index: 2;
+	animation-name: slideNav;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	/* animation-delay: 0.1s; */
+}
+
+@keyframes slideNav {
+	from {bottom: calc(var(--nav-height) + 100vh);}
+	to {bottom: calc(100vh - var(--nav-height));}
 }
