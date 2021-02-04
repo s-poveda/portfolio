@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack --mode production"
+    "build": "env NODE_ENV=production && webpack --mode production --config webpack.config.js"
   },
   "keywords": [],
   "author": "Sam P",
