@@ -38,5 +38,9 @@ export default {
 	css: {
 		url: 'images/css-icon.png',
 		alt: 'css icon'
+	},
+	openApi3: {
+		url: 'images/openapi3-icon.png',
+		alt: 'openAPI3 icon'
 	}
 };

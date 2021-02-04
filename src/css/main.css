@@ -14,6 +14,7 @@ main > section {
 
 article {
   width: 100%;
+	max-width: 480px;
 }
 
 article figure {
@@ -26,10 +27,6 @@ article figure {
 
 article figure a {
 	text-align: center;
-}
-
-article figure a {
-	/* width: 100%; */
 }
 
 article figure a img {
@@ -47,10 +44,47 @@ article figure figcaption a:hover {
 	color: #007CC7;
 }
 
+article figure figcaption > span h5 {
+	margin-top: 10px;
+	text-align: center;
+}
+article figure figcaption > span h4 {
+	margin-bottom: 10px;
+}
+
+article figure hr {
+	width: 75%;
+}
+
 #all-projects {
 	width: 100%;
 }
 
+#all-projects article {
+	border-bottom: 1px dotted #EEFBFB;
+}
+
+#all-projects article:last-child {
+	border-bottom: none;
+}
+
 .light-bg {
 	background: #203647;
+}
+
+@media only screen and (min-width: 600px) {
+	#all-projects {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	#all-projects article {
+		flex: 1 0 480px;
+	}
+}
+@media only screen and (min-width: 965px) {
+	#all-projects article {
+		border-bottom: none;
+	}
 }

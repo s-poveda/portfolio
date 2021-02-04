@@ -5,3 +5,15 @@
 #about > article p {
 	margin: 0 5px;
 }
+
+#my-stack-ul {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	list-style: none;
+	padding: 0 5px;
+}
+
+#about {
+	margin-bottom: 27px;
+}
