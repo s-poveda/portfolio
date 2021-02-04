@@ -24,7 +24,19 @@ export default {
 		alt: 'react icon'
 	},
 	postgres: {
-		url: 'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/postgresql-512.png',
+		url: 'images/postgres-icon.png',
 		alt: 'postgres icon'
+	},
+	heroku: {
+		url: 'images/heroku-icon.png',
+		alt: 'heroku icon'
+	},
+	html: {
+		url: 'images/html-icon.png',
+		alt: 'html icon'
+	},
+	css: {
+		url: 'images/css-icon.png',
+		alt: 'css icon'
 	}
 };
