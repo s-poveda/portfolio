@@ -1,0 +1,7 @@
+#about > article {
+	width: calc(100% - 1em);
+}
+
+#about > article p {
+	margin: 0 5px;
+}

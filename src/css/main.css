@@ -1,26 +1,27 @@
+main a {
+	color: #4DA8DA;
+}
+
 main > section {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+	font-size: 22px;
+
 }
 
-#all-projects {
-	width: 100%;
-}
 
 article {
   width: 100%;
 }
 
 article figure {
-  background: #203647;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
   margin-bottom: 16px;
   padding: 0 5px;
   border-radius: 3px;
-	font-size: 18px;
 }
 
 article figure a {
@@ -39,13 +40,17 @@ article figure figcaption *:last-child {
   margin-bottom: 0;
 }
 
-article figure figcaption a {
-	color: #EEFBFB;
-}
-
 article figure figcaption a:visited {
 	color: #4DA8DA;
 }
 article figure figcaption a:hover {
 	color: #007CC7;
+}
+
+#all-projects {
+	width: 100%;
+}
+
+.light-bg {
+	background: #203647;
 }

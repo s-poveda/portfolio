@@ -8,3 +8,7 @@ img.icon {
 .big.icon {
 	height: 2.2em;
 }
+
+.postgres.icon {
+	background: #eee;
+}

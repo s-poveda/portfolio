@@ -20,7 +20,7 @@ function initHeaderBehaviour() {
 function main() {
 	const iconSelector = 'img.icon';
 	for (let icon in imgSrc) {
-		$(`${iconSelector}.${icon}`).attr({ src: imgSrc[icon].url, alt: `${icon} icon` });
+		$(`${iconSelector}.${icon}`).attr({ src: imgSrc[icon].url, alt: imgSrc[icon].alt });
 	}
 	initHeaderBehaviour();
 }

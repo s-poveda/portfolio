@@ -1,0 +1,6 @@
+#contact > ul{
+	width: calc(100% - 1em);
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}

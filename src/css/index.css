@@ -1,6 +1,8 @@
 @import "./header.css";
 @import "./main.css";
 @import "./icons.css";
+@import "./about.css";
+@import "./contact.css";
 
 body {
   margin: 0;
