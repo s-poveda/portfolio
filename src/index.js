@@ -1,6 +1,7 @@
-import './css/index.css';
 import $ from 'jquery';
-import imgSrc from './imgSrc';
+import imageSrc from './imageSrc';
+import iconSrc from './iconSrc';
+import './css/index.css';
 
 function initHeaderBehaviour() {
 	const
@@ -19,8 +20,12 @@ function initHeaderBehaviour() {
 
 function main() {
 	const iconSelector = 'img.icon';
-	for (let icon in imgSrc) {
-		$(`${iconSelector}.${icon}`).attr({ src: imgSrc[icon].url, alt: imgSrc[icon].alt });
+	for (let icon in iconSrc) {
+		$(`${iconSelector}.${icon}`).attr({ src: iconSrc[icon].url, alt: iconSrc[icon].alt });
+	}
+	const imageSelector = 'img.image';
+	for (let image in imageSrc) {
+		$(`${imageSelector}.${image}`).attr({ src: imageSrc[image].url, alt: imageSrc[image].alt });
 	}
 	initHeaderBehaviour();
 }
