@@ -17,7 +17,7 @@ main >section > h2 {
 
 article {
   width: 100%;
-	max-width: 480px;
+	max-width: 500px;
 }
 
 article figure {
@@ -47,11 +47,11 @@ article figure figcaption a:hover {
 	color: #007CC7;
 }
 
-article figure figcaption > span h5 {
+.project-stack h5 {
 	margin-top: 10px;
 	text-align: center;
 }
-article figure figcaption > span h4 {
+.project-stack h4 {
 	margin-bottom: 10px;
 }
 

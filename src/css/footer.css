@@ -1,0 +1,23 @@
+footer {
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+	text-align: right;
+	background: #007CC7;
+}
+
+footer h2 {
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	font-weight: bold;
+	color: #000;
+}
+
+footer a {
+	color: #000;
+	font-size: 16px;
+	margin-right: 2em;
+	font-weight: bold;
+}
